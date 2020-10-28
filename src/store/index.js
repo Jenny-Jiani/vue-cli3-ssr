@@ -1,20 +1,12 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
+import web from './module/web'
 Vue.use(Vuex)
 
 export function createStore() {
   return new Vuex.Store({
-    state: {
-      count: 0,
+    modules: {
+      web,
     },
-    mutations: {
-      set_data(state, data) {
-        for (let key in data) {
-          state[key] = data[key]
-        }
-      },
-    },
-    actions: {},
   })
 }

@@ -1,0 +1,120 @@
+#homePage { background: #ffffff; }
+#homePage .indexBanner { height: 55rem; box-sizing: content-box; border-bottom: 0.7rem solid #CCCCCC; position: relative; overflow: hidden;}
+#homePage .indexBanner .bannerBgImg { position: absolute; left: 0;  top: 0; width: 100%; height: 64.4rem; background: url(../images/banner/index/homePageBanner@2x.png) no-repeat right; background-size: cover; }
+#homePage .indexBanner h1 { font-size: 5.5rem; line-height: 7rem; color: #323234 }
+#homePage .indexBanner .indexBannerDesc { font-size: 3.2rem; line-height: 4.6rem;color: #323234; width: 550px; }
+#homePage .indexBanner .downloadBtn:hover { box-shadow: -1rem 1rem 0 0px #000; transform: translate(1rem, -1rem); }
+
+#homePage .indexProduct { margin-top: 15rem; }
+#homePage .indexProduct .productBox { position: relative;width: 62rem;height: 66rem;background: #F5F5F5;padding: 9rem 8.5rem;margin: 0 auto;margin-bottom: 180px; }
+#homePage .indexProduct .productBox .icon { position: absolute;width: 10.3rem;height: 10.3rem;border: 1px solid #39393B;left: 9rem;  top: -5.5rem; }
+#homePage .indexProduct .productBox .icon-barcode {background: url('../images/icons/barcode-scan.png') #ffffff no-repeat center center;}
+#homePage .indexProduct .productBox .icon-scanner {background: url('../images/icons/scanner.png') #ffffff no-repeat center center;}
+#homePage .indexProduct .productBox h3 {color: #323234;font-size: 3rem;line-height: 4rem;}
+#homePage .indexProduct .productBox .disc {font-size: 1.8rem;line-height: 3rem;color: #323234;}
+#homePage .indexProduct .productBox  .productImg {position: absolute;width: 58rem;height: 30rem;left: 8.8rem;bottom: -15rem;}
+
+#homePage .indexReason {position: relative;padding-bottom: 10rem; margin-top: 190px; }
+#homePage .indexReason h2 {font-size: 4rem;line-height: 6rem;color: #323234;margin-bottom: 50px;padding-left: 4rem;position: relative;}
+#homePage .indexReason .reasonList {margin: 0;padding: 0;width: 610px;list-style: none;padding-left: 4rem;}
+#homePage .indexReason .reasonList li {position: relative; margin-bottom: 30px;}
+#homePage .indexReason .reasonList li::before {display: inline-block;content: '';height: 10px;width: 13px;background: url('../images/icons/Artwork.png') no-repeat center center;background-size: contain;transform: rotate(-90deg);display: inline-block;position: absolute;left: -2.5rem;top: 1rem;}
+#homePage .indexReason .reasonList li .title {font-size: 30px;line-height: 45px;margin-bottom: 5px;}
+#homePage .indexReason .reasonList li .cnt {line-height: 30px;font-size: 18px;}
+#homePage .indexReason .indexReasonBg {position: absolute;width: 77%;height: 800px;background: #F5F5F5;right: 0;top: -30px;}
+#homePage .indexReason .indexReasonImg {position: absolute;bottom: -70px;right: 0;width: 894px;}
+
+#homePage .indexFeature {padding-bottom: 13rem; margin-top: 10rem; }
+#homePage .indexFeature .featureMain:nth-child(2) .featureBoxTop { background: url(../images/banner/index/indexFeaturedContent1.png); }
+#homePage .indexFeature .featureMain:nth-child(3) .featureBoxTop { background: url(../images/banner/index/indexFeaturedContent2.png); }
+#homePage .indexFeature .featureMain:nth-child(4) .featureBoxTop { background: url(../images/banner/index/indexFeaturedContent3.png); }
+
+#homePage .indexBottom { padding: 9.5rem 0; }
+#homePage p, #homePage h2 { margin-bottom: 0; }
+#homePage .indexBottom .powerClickImg { width: 100%; max-width: 62.9rem; margin-top: 0; position: absolute; right: 0; top: -66px;}
+#homePage .indexBottom .cnt { font-size: 24px; line-height: 34px; margin-top: 15px; margin-bottom: 50px; }
+#homePage .indexBottom .btns .tryBtn { margin-left: 8rem; }
+#homePage .indexBottom .btns .downloadBtn:hover { margin-top: -8px; margin-left: 8px; margin-bottom: 8px; box-shadow: -8px 8px 0 0 #323234; }
+
+@media (max-width: 1699.98px) {
+  #homePage .indexProduct .productBox { margin-bottom: 150px; }
+  #homePage .indexProduct .productBox .disc { font-size: 2rem; }
+  #homePage .indexReason { margin-top: 190px; }
+  #homePage .indexReason h2 { margin-bottom: 40px; }
+  #homePage .indexReason .reasonList { width: 500px; }
+  #homePage .indexReason .reasonList li .title { font-size: 24px; line-height: 30px; }
+  #homePage .indexReason .reasonList li .cnt { font-size: 16px; line-height: 26px; }
+  #homePage .indexReason .indexReasonBg { width: 73%; height: 735px; }
+  #homePage .indexReason .indexReasonImg { position: absolute; bottom: 1px; right: 0; width: 630px; }
+  #homePage .indexBottom .cnt { font-size: 22px; }
+  #homePage .indexBottom .powerClickImg { top: -10px; }
+}
+
+@media (max-width: 1199.98px) {
+  #homePage .indexProduct .productBox {position: relative;width: 50rem;height: 65rem;background: #F5F5F5;padding: 9rem 8.5rem;margin: 0 auto;margin-bottom: 150px;}
+  #homePage .indexProduct .productBox .productImg {position: absolute;width: 46rem;height: 25rem;left: 8.8rem;bottom: -19rem;}
+  #homePage .indexProduct .productBox .disc { font-size: 1.8rem; }
+  #homePage .indexReason { margin-top: 150px; }
+  #homePage .indexReason h2 { margin-bottom: 30px; }
+  #homePage .indexReason .reasonList { width: 400px; }
+  #homePage .indexReason .reasonList li { margin-bottom: 20px; }
+  #homePage .indexReason .reasonList li .title { font-size: 20px; line-height: 26px; }
+  #homePage .indexReason .reasonList li .cnt { font-size: 14px; line-height: 24px; }
+  #homePage .indexReason .indexReasonBg { height: 650px; width: 68%; }
+  #homePage .indexReason .indexReasonImg {position: absolute;bottom: 0px;right: 0;width: 530px;}
+  #homePage .indexBottom .cnt { font-size: 20px; line-height: 24px; }
+}
+
+@media (max-width: 991.98px) {
+  #homePage .indexBanner .bannerBgImg { background: url(../images/banner/index/homePageBanner@2x.png) no-repeat left; }
+  #homePage .indexProduct .productBox {position: relative;width: 100%;height: 65rem;background: #F5F5F5;padding: 9rem 8.5rem;margin: 0 auto;margin-bottom: 30rem;}
+  #homePage .indexProduct .productBox .productImg {position: absolute;width: 70%;height: auto;left: 8.8rem;bottom: -13rem;}
+  #homePage .indexReason { padding-bottom: 0px; }
+  #homePage .indexReason .indexReasonBg { display: none; }
+  #homePage .indexReason .indexReasonImg {position: relative;bottom: 0;right: 0;width: 66rem;display: block;margin: 0 auto;}
+  #homePage .indexReason h2 { text-align: center; }
+  #homePage .indexReason .reasonList { width: 100%; margin: 0 auto; }
+  #homePage .indexReason .reasonList li .cnt { line-height: 3rem; font-size: 16px; margin-top: 10px; }
+  #homePage .indexProduct .productBox .disc { font-size: 2rem; }
+  #homePage .indexProduct  .col-12:last-child .productBox { margin-bottom: 80px; }
+  #homePage .basicCustomers .swiper-slide i.company-logo { opacity: .6; }
+  #homePage .indexFeature { margin-top: 150px; }
+  #homePage .indexBottom .cnt { font-size: 18px; line-height: 24px; }
+}
+
+@media (max-width: 767.98px) {
+  #homePage .indexBanner { height: auto; padding-bottom: 50px; background: url(/assets/img/homePageBanner@2x.3c0ce906.png) no-repeat left; }
+  #homePage .indexBanner .bannerBgImg { display: none; }
+  #homePage .indexBanner .indexBannerDesc { width: auto; font-size: 18px; line-height: 30px; margin-bottom: 40px; }
+  #homePage .indexBanner .pt100 { padding-top: 50px; }
+  #homePage .indexBanner h1 { font-size: 34px; line-height: 40px; }
+  #homePage .indexProduct { margin-top: 76px; }
+  #homePage .indexProduct .productBox h3 { font-size: 20px; line-height: 30px; }
+  #homePage .indexProduct .productBox { padding: 73px 36px 85px; height: auto; margin-bottom: 200px; }
+  #homePage .indexProduct .productBox .icon { width: 60px; height: 60px; top: -30px; left: 35px; background-size: 65%!important; }
+  #homePage .indexProduct .barcodeProduct .productImg { left: 12%; width: 80%; bottom: -95px; }
+  #homePage .indexProduct .productBox .disc { font-size: 16px; line-height: 26px; }
+  #homePage .indexProduct .productBox .f24 { font-size: 18px; margin-bottom: 40px; }
+  #homePage .indexProduct .productBox .dwtlink { margin-bottom: 10px; }
+  #homePage .indexProduct .documentProduct .productImg { left: 12%; width: 80%; bottom: -78px; }
+  #homePage .indexProduct  .col-12:last-child .productBox { margin-bottom: 0px; }
+  #homePage .indexReason h2 { text-align: center; font-size: 26px; line-height: 40px; padding-left: 0; }
+  #homePage .indexReason { margin-top: 120px; }
+  #homePage .indexReason .reasonList li .title { font-size: 20px; line-height: 30px; }
+  #homePage .indexReason .reasonList li .cnt { font-size: 14px; line-height: 22px; }
+  #homePage .indexReason .indexReasonImg { width: 100%; }
+  #homePage .indexReason .reasonList li { margin-bottom: 30px; }
+  #homePage .indexFeature { margin-top: 80px; padding-bottom: 60px; }
+  #homePage .indexSwiper { margin-top: 200px; }
+  #homePage .indexSwiper .ant-carousel .slick-slide .slide-right { margin-bottom: 20px; }
+  #homePage .indexSwiper .ant-carousel .slick-slide .slide-left{ height: auto; }
+}
+
+@media (max-width: 375px) {
+  #homePage .indexProduct .col-12  { padding: 0; }
+}
+
+@media (min-width: 2000px) {
+  #homePage .indexBanner { height: 63rem; box-sizing: content-box; border-bottom: 0.7rem solid #CCCCCC;}
+  #homePage .indexBanner .bannerBgImg { position: absolute; left: 0;  top: 0; width: 100%; height: 72.4rem; background: url(../images/banner/index/homePageBanner@2x.png) no-repeat right; background-size: cover; }
+}
